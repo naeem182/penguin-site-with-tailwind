@@ -8,13 +8,19 @@
     <title>penguin fashon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Mukta:wght@500&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Mukta:wght@500&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .font-bebas {
             font-family: 'bebas neue', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'roboto', sans-serif;
         }
     </style>
 </head>
@@ -25,7 +31,7 @@
 
         </nav>
         <!---------banner-->
-        <div class="flex items-center justify-between px-32">
+        <div class="flex flex-col sm:flex-row  items-center justify-between px-32 h-contain">
             <div class="space-y-3">
                 <h1 class="text-6xl uppercase">
                     <span class="text-[#FABE4C]">Be the Penguins</span>
@@ -45,13 +51,92 @@
                     Buy Now
                 </button>
             </div>
-            <div>
+            <div class="sm:p-0 object-cover">
                 <img src="images/model.png" alt="">
             </div>
         </div>
     </header>
-    <main>
+    <main class="max-w-7xl mx-auto">
+        <section class="py-7">
+            <h1 class="text-5xl font-bebas">W0Man Jacket</h1>
+            <div class="font-roboto rounded-xl grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-----jacket   1-->
+                <div class="p-2">
+                    <div class="space-y-3">
+                        <img class="p-5 bg-[#f1f1f1]" src="images/jacket-1.png" alt="">
+                        <h4 class="text-2xl font-robot">Yellow Coat Jacket </h4>
+                        <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between">
+                            <h3 class="text-4xl font-bold">$234</h3>
+                            <button
+                                class="bg-blue-500 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-9 py-1 rounded-lg font-medium flex ">
 
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    strokeWidth={1.2} stroke="currentColor" className="w-6 h-6 ">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-----jacket  2             -->
+
+                <div class="p-2">
+                    <div class="space-y-3">
+                        <img class="p-5 bg-[#f1f1f1]" src="images/jacket-1.png" alt="">
+                        <h4 class="text-2xl font-robot">Yellow Coat Jacket </h4>
+                        <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between">
+                            <h3 class="text-4xl font-bold">$234</h3>
+                            <button
+                                class="bg-blue-500 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-9 py-1 rounded-lg font-medium flex ">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    strokeWidth={1.2} stroke="currentColor" className="w-6 h-6 ">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----jacket   3-->
+                <div class="placeholder:-2">
+                    <div class="space-y-3">
+                        <img class="p-5 bg-[#f1f1f1]" src="images/jacket-1.png" alt="">
+                        <h4 class="text-2xl font-robot">Yellow Coat Jacket </h4>
+                        <p>Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="flex justify-between">
+                            <h3 class="text-4xl font-bold">$234</h3>
+                            <button
+                                class="bg-blue-500 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-9 py-1 rounded-lg font-medium flex ">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    strokeWidth={1.2} stroke="currentColor" className="w-6 h-6 ">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
     </main>
     <footer>
 
